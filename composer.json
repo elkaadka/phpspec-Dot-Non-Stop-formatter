@@ -1,5 +1,5 @@
 {
-    "name": "kanel/phpspecdotnonstop",
+    "name": "kanel/phpspec-dot-non-stop-formatter",
     "description": "A dot formatter for phpspec 4 that does not wrap dots every 50 one",
     "minimum-stability": "stable",
     "require" : {
