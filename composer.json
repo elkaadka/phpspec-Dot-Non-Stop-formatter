@@ -1,0 +1,30 @@
+{
+    "name": "kanel/phpspecdotnonstop",
+    "description": "A dot formatter for phpspec 4 that does not wrap dots every 50 one",
+    "minimum-stability": "stable",
+    "require" : {
+        "php" : ">=7.0",
+        "phpspec/phpspec": ">=4.0"
+    },
+    "repositories" : [ {
+        "type" : "composer",
+        "url" : "https://packagist.org/"
+    } ],
+    "require-dev" : {
+    },
+    "autoload-dev" : {
+        "psr-4" : {
+            "Kanel\\PhpSpec\\" : "src/",
+            "Kanel\\PhpSpec\\Tests\\" : "tests/"
+        }
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Kanel\\PhpSpec\\" : "src/"
+        }
+    },
+    "authors" : [ {
+        "name" : "Adil El Kanabi",
+        "email" : "adil.kanabi@gmail.com"
+    } ]
+}
